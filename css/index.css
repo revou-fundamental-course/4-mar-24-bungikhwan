@@ -23,3 +23,10 @@
     background-color: aqua;
     padding: 25px;
 }
+
+.container-result {
+    border:10px black;
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+}
