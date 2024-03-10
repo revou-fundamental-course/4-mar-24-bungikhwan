@@ -8,9 +8,18 @@
 .container-item {
     border: 1px solid;
     width: 100%;
-    background-color: red;
     color: black;
 }
 .container-item>h2 {
-    text-align: center;
+    text-align: left;
+    padding: 25px;
+}
+.container-item>p {
+    padding: 25px;
+    font-weight: bold;
+}
+.container-form {
+    border: 10px black;
+    background-color: aqua;
+    padding: 25px;
 }
