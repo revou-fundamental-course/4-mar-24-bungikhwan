@@ -1,0 +1,16 @@
+.title {
+    color: brown;
+    text-align: center;
+}
+.main-container {
+    display: flex;
+}
+.container-item {
+    border: 1px solid;
+    width: 100%;
+    background-color: red;
+    color: black;
+}
+.container-item>h2 {
+    text-align: center;
+}
