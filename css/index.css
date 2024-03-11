@@ -1,36 +1,51 @@
 .title {
-    color: brown;
+   color: darkblue;
     text-align: center;
 }
 .main-container {
     display: flex;
 }
 .container-item {
-    border: 1px solid;
     width: 100%;
     color: black;
 }
 .container-item>h2 {
-    text-align: left;
-    padding: 25px;
+    text-align: center;
 }
 .container-item>p {
     padding: 25px;
     font-weight: bold;
 }
 .container-form {
-    border: 10px black;
-    background-color: aqua;
-    padding: 25px;
+    border: 1px solid;
+    background-color: rgb(231, 206, 206);
+    padding: 10px;
+    margin: 25px;
+    margin-bottom: 1px;
 }
 
 .container-result {
-    border:10px black;
-    background-color: aqua;
-    padding: 25px;
+    border: 1px solid;
+    background-color: rgb(231, 206, 206);
+    padding: 10px;
+    margin: 25px;
     text-align: center;
+    margin-bottom: 1px;
 }
 .container-factor {
+    border: 1px solid;
+    background-color: rgb(231, 206, 206);
     text-align: center;
-    background-color: aqua;
+    padding: 10px;
+    margin: 25px;
+    margin-top: 1px;
+}
+.container-fitur {
+    padding: 25px;
+    font-weight: bold;
+}
+.result-one {
+    padding: 25px;
+    font-weight: bold;
+    margin-bottom: 1px;
 }
