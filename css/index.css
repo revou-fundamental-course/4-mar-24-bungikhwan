@@ -49,3 +49,14 @@
     font-weight: bold;
     margin-bottom: 1px;
 }
+button {
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 480px) {
+    .main-container{
+        flex-direction: column;
+    }
+}
+    

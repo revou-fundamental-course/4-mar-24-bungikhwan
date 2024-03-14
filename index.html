@@ -27,22 +27,28 @@
                             </div>
                             <br>
                             <div>
-                            <div>Berat Badan (kg)</div>
-                            <input type="number">
+                                <div>
+                                <label for="weight">Berat Badan (Kg) </label>
+                                <br>
+                                <input type="number" id="weight">
+                            </div>
+                        </div>
+                            <br>
+                            <div>
+                                <label for="height">Umur (Th) </label>
+                                <br>
+                                <input type="number">
                             </div>
                             <br>
                             <div>
-                            <div>Umur (Tahun)</div>
-                            <input type="number">
+                                <label for="height">Tinggi Badan (Cm) </label>
+                                <br>
+                                <input type="number" id="height">
                             </div>
                             <br>
                             <div>
-                            <div>Tinggi Badan (cm)</div>
-                            <input type="number">
-                            </div>
-                            <br>
-                            <div>
-                            <button type="button">Hitung BMI</button><button type="button">Reset</button>
+                                <button type="button" id="calculateBMI" onclick="calculate()">Hitung BMI</button> 
+                               <button type="button">Reset</button>
                             </div>
                         </section>
                         <section class="container-fitur">
@@ -67,15 +73,15 @@
                 <div>
                 <h3>Berat badan lebih</h3></div>
                 <div>
-                <h2>0</h2></div>
+                <h2 id="result">0</h2></div>
                 <div>
-                <h4>Anda memiliki berat badan berlebih</h4></div>
+                <h4 id="keterangan">Anda memiliki berat badan berlebih</h4></div>
                 <div>
-                <button input="button">Download Hasil BMI</button></div>
+                <button input type="button">Download Hasil BMI</button></div>
             </section>
             <section class="result-one">
             <p>Hasil BMI di antara 23 dan 25</p>
-            <div>Anda berada dalam kategori overweight atau berat bada berlebih.</div>
+            <div >Anda berada dalam kategori overweight atau berat bada berlebih.</div>
             <div>Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalori makanan yang dikonsumsi dan berolahraga .</div>
             <div>Jika BMI anda berada dalam kategori ini maka Anda di anjurkan untuk menurunkan berat badan hinggsa batas normal</div><br/>
             <button input="link">Komunikasi Ahli Gizi Via Aplikasi</button><button type="link">Registrasi Online Ahli gizi</button>
